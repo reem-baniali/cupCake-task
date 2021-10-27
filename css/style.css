@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    margin-bottom: 20px;
+}
+.header-title-container{
+    width: fit-content;
+}
+ .header-title{
+    background-color: rgb(221, 130, 160);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 15px;
+    line-height: 15px;
+}
+.welcom{
+    background-color: black;
+    font-size: 25px;
+    justify-content:flex-start;
+    color: white;
+    margin-top: 13px;
+}
+.customerName{
+    display: none;
+   
+}
+.show-btn{
+    font-size: 15px ;
+    padding: 0 15px !important;
+    border-radius: 7px;
+    margin-left: 5px;
+    background-color: rgb(147, 184, 252);
+}
+.message{
+    color: red;
+}
