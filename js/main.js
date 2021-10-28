@@ -32,7 +32,7 @@ function show_cupcakes() {
 for (let i = 0; i < cup_cakes.length; i++) {
   let tableBody=`<tr>
   <td>${cup_cakes[i].name}</td>
-  <td calss="${cup_cakes[i].calories}">${cup_cakes[i].calories}</td>
+  <td id="${cup_cakes[i].calories}">${cup_cakes[i].calories}</td>
   <td>${cup_cakes[i].weight}</td>
   </tr>
   `
