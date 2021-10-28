@@ -41,3 +41,15 @@ header{
 .message{
     color: red;
 }
+
+ #high {
+    background-color: red !important;
+
+}
+
+#medium{
+    background-color: orange !important;
+}
+#low{
+    background-color: green !important;
+}
